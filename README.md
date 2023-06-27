@@ -14,7 +14,8 @@
 ![Alt-текст](https://i.ibb.co/ftjjRLG/ds-t.png "dS(t)")
 
 ## ddS(t)
-![Alt-текст](https://i.ibb.co/6mn6Hky/dds-t.png "ddS(t)")
+![Alt-текст](https://ltdfoto.ru/images/2023/06/27/qqqqs.png "ddS(t)")
+
 
 ## dddS(t)
 ![Alt-текст](https://i.ibb.co/fQZTTt1/ddds-t.png "dddS(t)")
