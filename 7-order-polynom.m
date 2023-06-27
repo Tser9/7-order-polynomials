@@ -5,7 +5,7 @@ syms T t a0 a1 a2 a3 a4 a5 a6 a7
 %Полином 7ой степени
 s=a0+a1*t+a2*t^2+a3*t^3+a4*t^4+a5*t^5+a6*t^6+a7*t^7
 
-%1,2,3 производная
+%Дифференциал 1,2,3 порядка
 s1=diff(s,t)
 s2=diff(s1,t)
 s3=diff(s2,t)
@@ -33,7 +33,7 @@ title('S(t)')
 xlabel('t')
 ylabel('S(t)')
 
-%График S'(t)
+%График dS(t)
 y=subs(s1,{a0,a1,a2,a3,a4,a5,a6,a7},{S.a0,S.a1,S.a2,S.a3,S.a4,S.a5,S.a6,S.a7})
 t=0:1/100:1
 y=subs(y,T,1)
@@ -46,7 +46,7 @@ xlabel('t')
 ylabel('dS(t)')
 
 
-%График S''(t)
+%График ddS(t)
 y=subs(s2,{a0,a1,a2,a3,a4,a5,a6,a7},{S.a0,S.a1,S.a2,S.a3,S.a4,S.a5,S.a6,S.a7})
 t=0:1/100:1
 y=subs(y,T,1)
@@ -60,7 +60,7 @@ xlabel('t')
 ylabel('ddS(t)')
 
 
-%График S'''(t)
+%График dddS(t)
 y=subs(s3,{a0,a1,a2,a3,a4,a5,a6,a7},{S.a0,S.a1,S.a2,S.a3,S.a4,S.a5,S.a6,S.a7})
 t=0:1/100:1
 y=subs(y,T,1)
